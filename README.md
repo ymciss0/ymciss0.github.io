@@ -1,5 +1,3 @@
-# Yelene Cisse - Portfolio
-
 My personal portfolio website showcasing machine learning projects, research interests, and professional experience.
 
 🔗 **Live Site**: [ymciss0.github.io](https://ymciss0.github.io)
