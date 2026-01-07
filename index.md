@@ -6,7 +6,7 @@ Hello World!
 
 # Welcome 👋
 
-I'm a **Data Scientist/ML Engineer** with 3 years of production ML experience and a passion for building intelligent systems that solve real-world problems.
+My name is Yelene Cisse and I am a **Data Scientist/ML Engineer** with 3 years of production ML experience and a passion for building intelligent systems that solve real-world problems.
 
 Currently pursuing my MS in Data Science at Columbia University, I specialize in:
 
