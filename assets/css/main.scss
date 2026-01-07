@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom overrides */
+.grid__item {
+  width: calc(50% - 1em) !important;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+  .grid__item {
+    width: 100% !important;
+  }
+}
