@@ -1,0 +1,107 @@
+# Site Settings
+title: "Yelene Cisse"
+name: "Yelene Cisse"
+email: ymc2123@columbia.edu
+description: >-
+  Data Scientist | Machine Learning Engineer specializing in production ML systems, 
+  recommendation systems, and NLP. MS Data Science @ Columbia University.
+url: "https://ymciss0.github.io"
+baseurl: ""
+repository: "ymciss0/ymciss0.github.io"
+
+# Site Author
+author:
+  name: "Yelene Cisse"
+  avatar: "/assets/images/bio-photo.jpg" # Add photo later
+  bio: " Data Scientist | Machine Learning Engineer | Columbia MS '26"
+  location: "New York, NY"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ymc2123@columbia.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yelene-cisse"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ymciss0"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ymciss0"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yelene-cisse"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Reading Files
+include:
+  - _pages
+  
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/New_York
+
+# Search
+search: true

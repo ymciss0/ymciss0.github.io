@@ -1,0 +1,9 @@
+# Main navigation links:
+
+main:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /portfolio/
+  - title: "Resume"
+    url: /resume/
