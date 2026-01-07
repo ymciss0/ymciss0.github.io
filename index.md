@@ -17,7 +17,7 @@ Currently pursuing my MS in Data Science at Columbia University, I specialize in
 ## Recent Highlights
 - Built production **GLMs** at Chubb Ltd. for actuarial pricing across Property, Auto, and Worker's Compensation lines of business.
 - Developed Sentiment Analysis on 581K+ Sephora products reviews for **SkinWise** , an AI-powered skincare agent recommending products meeting dermatological needs.
-- Completed **Applied Machine Learning**, **Exploratory Data & Visualization** and **Probability & Statistics** courses at Columbia University.
+- Completed **Applied Machine Learning**, **Exploratory Data & Visualization**, **Algorithms for Data Science** and **Probability & Statistics** courses at Columbia University.
 
 ## What I'm Working On
 
