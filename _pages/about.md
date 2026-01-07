@@ -5,10 +5,6 @@ permalink: /about/
 author_profile: true
 ---
 
-## Hello! 👋
-
-I'm Yelene Cisse, a Data Scientist and Machine Learning Engineer passionate about building intelligent systems that create real impact.
-
 ### My Journey
 
 My journey into Data Science started with Chubb Ltd., where I spent three years exploring data, building production ML models, and presented findings to diverse stakeholders. Now pursing my Master of Science in Data Science at Columbia University, I've developed a unique perspective that bridges theoretical foundations with practical implementation. I am excited to continue growing as a professional and welcome ML opportunities with open hands!
