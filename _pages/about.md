@@ -14,7 +14,7 @@ My journey into Data Science started with Chubb Ltd., where I spent three years 
 At Chubb, I built and deployed Generalized Linear Models for actuarial pricing decisions, managing the complete ML lifecycle from data pipeline optimization through production deployment and governance. I facilitated our team's transition from legacy SAS to Python, ensuring business continuity while modernizing an entire codebase.
 
 **Recommendation Systems & NLP**  
-My recent work focuses on recommendation systems and natural language processing. In my SkinWise project, I developed a sentiment analysis pipeline that processes 581K+ product reviews to generate personalized skincare recommendations—achieving 86% accuracy and improving negative feedback detection by 46%.
+My recent work focuses on recommendation systems and natural language processing. In my SkinWise collaborative project, I developed a sentiment analysis pipeline that processes 581K+ product reviews to generate personalized skincare recommendations—achieving 86% accuracy and improving negative feedback detection by 46%.
 
 ### Technical Expertise
 
