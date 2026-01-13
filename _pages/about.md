@@ -28,7 +28,9 @@ My recent work focuses on recommendation systems and natural language processing
 
 **Columbia University** (Expected Dec 2026)  
 MS in Data Science  
-*Coursework*: Applied Machine Learning, Algorithms for Data Science, Probability & Statistics, Exploratory Data Analysis & Visualization
+*Completed coursework*: Applied Machine Learning, Algorithms for Data Science, Probability & Statistics, Exploratory Data Analysis & Visualization
+
+*Upcoming coursework*: Statistical Inference & Modeling, Causal Inference for Data Science, Computer Systems for Data Science, Machine Learning for Data Science
 
 **La Salle University** (2018-2022)  
 BS in Mathematics (Maxima Cum Laude)  
