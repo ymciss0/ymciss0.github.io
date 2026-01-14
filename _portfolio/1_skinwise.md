@@ -12,9 +12,9 @@ github: https://github.com/ymciss0/SkinWise
 ---
 
 ## Overview
-AI-powered skincare recommendation system using product metadata, reviews, and medical knowledge to match users with best products tending to their dermatological needs.
+AI-powered skincare recommendation system using product metadata, reviews, and medical knowledge to match users with best products tending to their dermatological needs. Direct link to the Chatbot: https://huggingface.co/spaces/kshamaasuresh/skincare-agent
 
-As part of this project, sentiment analysis was performed on 581K+ reviews from a Sephora product reviews dataset, to identify relevant feedback for product recommendation.
+As part of this collaborative project, I performed sentiment analysis on 581K+ reviews from a Sephora product reviews dataset, to identify relevant feedback for product recommendation.
 
 ## Sentiment Analysis Key Results
 - **86% classification accuracy** using TF-IDF + Logistic Regression
