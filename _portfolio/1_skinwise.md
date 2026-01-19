@@ -29,3 +29,68 @@ Python • scikit-learn • pandas • NumPy • TF-IDF • Logistic Regression
 This project taught me how to extract meaningful signals from noisy user feedback, and practice with Natural Language Processing through TF-IDF implementation. The 46% improvement in detecting negative reviews came from careful handling of class imbalance and optimizing for precision on the minority class.
 
 [View Code on GitHub](https://github.com/ymciss0/SkinWise){: .btn .btn--primary}
+
+<!-- Thumbnail that triggers modal -->
+<div class="pdf-thumbnail">
+  <img src="/assets/images/skinwise_pres_thumbnail.png" alt="View Presentation" style="cursor: pointer;" onclick="openPDFModal()">
+  <p><em>Click to view full presentation</em></p>
+</div>
+
+<!-- Modal -->
+<div id="pdfModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closePDFModal()">&times;</span>
+    <iframe src="/assets/pdfs/skinwise_pres.pdf" width="100%" height="600px"></iframe>
+  </div>
+</div>
+
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 2% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  height: 90vh;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover { color: #000; }
+</style>
+
+<script>
+function openPDFModal() {
+  document.getElementById('pdfModal').style.display = 'block';
+}
+
+function closePDFModal() {
+  document.getElementById('pdfModal').style.display = 'none';
+}
+
+// Close on outside click
+window.onclick = function(event) {
+  const modal = document.getElementById('pdfModal');
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+</script>
