@@ -44,4 +44,9 @@ Python • PyTorch • Hugging Face Tokenizers • Google Colab
 ## What I Learned
 The biggest surprise was vocabulary size—reducing from 500 to 260 gave 51% perplexity improvement because smaller vocab meant each token appeared more frequently, allowing the model to learn robust embeddings rather than spreading capacity across rare tokens. This taught me that matching model capacity to dataset characteristics matters more than simply maximizing parameters. The attention visualization revealed hierarchical patterns where certain tokens act as information hubs, providing insight into what transformers actually learn.
 
+<figure>
+  <img src="/assets/images/attention_plots_transformer.png" alt="Attention plot">
+  <figcaption><em>Sample Transformer Attention matrix</em></figcaption>
+</figure>
+
 [View Code on GitHub](https://github.com/ymciss0/Applied_Machine_Learning/blob/main/project_3/next_token_prediction.ipynb){: .btn .btn--primary}
