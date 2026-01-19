@@ -9,6 +9,7 @@ url: "https://ymciss0.github.io"
 baseurl: ""
 repository: "ymciss0/ymciss0.github.io"
 
+
 # Site Author
 author:
   name: "Yelene Cisse"
@@ -39,6 +40,13 @@ footer:
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Analytics
+analytics:
+  provider: "google-gtag"  # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-YQHTE3TRWK"
+    anonymize_ip: true # true, false (default)
 
 # Plugins
 plugins:

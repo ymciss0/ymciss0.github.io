@@ -46,7 +46,7 @@ As part of this collaborative project, I performed sentiment analysis on 581K+ r
   const thumbnail = document.getElementById('pdfThumbnail');
   const closeBtn = document.getElementById('closeModal');
   const iframe = document.getElementById('pdfFrame');
-  const pdfPath = '/assets/pdfs/skinwise_pres.pdf';
+  const pdfPath = '/assets/files/skinwise_pres.pdf';
 
   // Open modal
   thumbnail.addEventListener('click', function() {
