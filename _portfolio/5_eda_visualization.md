@@ -22,15 +22,15 @@ Comprehensive coursework demonstrating advanced exploratory data analysis and vi
 - And many more useful plots to analyze data, test assumptions and understand relationships!
 
 ## Sample Visualizations
-🔗 [View Interactive HTML Report 1](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_1/PSet1-2025_Yelene.html)
-🔗 [View Interactive HTML Report 2](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_2/PSet2-2025_Yelene.html)
-🔗 [View Interactive HTML Report 3](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_3/PSet3-2025_Yelene.html)
-🔗 [View Interactive HTML Report 4](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_4/PSet4-2025_Yelene.html)
+🔗 [View HTML Report 1](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_1/PSet1-2025_Yelene.html)
+🔗 [View HTML Report 2](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_2/PSet2-2025_Yelene.html)
+🔗 [View HTML Report 3](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_3/PSet3-2025_Yelene.html)
+🔗 [View HTML Report 4](https://ymciss0.github.io/Exploratory_Data_Analysis_Visualization/Problem_Set_4/PSet4-2025_Yelene.html)
 
 ## Technical Stack
 R • ggplot2 • tidyverse • dplyr  • ggalluvial • ggdensity • tidycensus • tmap 
 
 ## What I Learned
-Effective data visualization is fundamental to extracting insights from complex datasets. This coursework reinforced that the right visualization doesn't just display data—it reveals patterns, tests hypotheses, and communicates findings that raw numbers alone cannot convey. I developed both the technical skills to create sophisticated visualizations in R and the analytical judgment to choose the most appropriate visual approach for different data types and analytical questions.
+Effective data visualization is fundamental to extracting insights from complex datasets. This coursework reinforced that the right visualization doesn't just display data, but reveals patterns, tests hypotheses, and communicates findings that raw numbers alone cannot convey. I developed both the technical skills to create sophisticated visualizations in R and the analytical judgment to choose the most appropriate visual approach for different data types and analytical questions.
 
 [View Codes on GitHub](https://github.com/ymciss0/Exploratory_Data_Analysis_Visualization/tree/main){: .btn .btn--primary}

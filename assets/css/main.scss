@@ -14,12 +14,31 @@
 }
 
 /* Two-column grid for portfolio - try both selectors */
+// .entries-grid .grid__item,
+// .archive .grid__item,
+// .grid__wrapper .grid__item {
+//   width: calc(50% - 1em) !important;
+//   margin-bottom: 2em;
+// }
+
+/* Portfolio grid container */
+.entries-grid,
+.archive .grid__wrapper,
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em 1em; // row gap 2em, column gap 1em
+}
+
+/* Remove individual item width rules */
 .entries-grid .grid__item,
 .archive .grid__item,
 .grid__wrapper .grid__item {
-  width: calc(50% - 1em) !important;
-  margin-bottom: 2em;
+  width: 100% !important;
+  margin-bottom: 0; // gap handles spacing now
 }
+
+
 
 /* Responsive mobile */
 @media (max-width: 768px) {
