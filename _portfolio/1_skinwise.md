@@ -18,79 +18,72 @@ As part of this collaborative project, I performed sentiment analysis on 581K+ r
 
 ## Sentiment Analysis Key Results
 - **86% classification accuracy** using TF-IDF + Logistic Regression
-- **46% improvement** in negative feedback detection (61% → 88% precision) from baseline model
+- **46% improvement** in negative feedback detection (61% → 88% precision) from baseline model (VADER)
 - **Multi-platform validated** on 4K additional Ulta reviews
 - Automated quality scoring to surface top-5 representative reviews per product
 
 ## Technical Stack
-Python • scikit-learn • pandas • NumPy • TF-IDF • Logistic Regression
+Python • scikit-learn • pandas • NumPy • VADER • TF-IDF • Logistic Regression
 
 ## What I Learned
 This project taught me how to extract meaningful signals from noisy user feedback, and practice with Natural Language Processing through TF-IDF implementation. The 46% improvement in detecting negative reviews came from careful handling of class imbalance and optimizing for precision on the minority class.
 
 [View Code on GitHub](https://github.com/ymciss0/SkinWise){: .btn .btn--primary}
 
-<!-- Thumbnail that triggers modal -->
-<div class="pdf-thumbnail">
-  <img src="/assets/images/skinwise_pres_thumbnail.png" alt="View Presentation" style="cursor: pointer;" onclick="openPDFModal()">
+
+<!-- Thumbnail -->
+<div class="pdf-thumbnail" style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/skinwise_pres_thumbnail.png" 
+       alt="View Presentation" 
+       style="cursor: pointer; max-width: 400px; border: 2px solid #ddd;" 
+       id="pdfThumbnail">
   <p><em>Click to view full presentation</em></p>
 </div>
 
 <!-- Modal -->
-<div id="pdfModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closePDFModal()">&times;</span>
-    <iframe src="/assets/pdfs/skinwise_pres.pdf" width="100%" height="600px"></iframe>
+<div id="pdfModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);">
+  <div style="position: relative; background-color: white; margin: 2% auto; padding: 0; width: 90%; max-width: 1000px; height: 90vh;">
+    <span id="closeModal" style="position: absolute; top: 10px; right: 20px; color: #333; font-size: 35px; font-weight: bold; cursor: pointer; z-index: 10000;">&times;</span>
+    <iframe id="pdfFrame" src="" width="100%" height="100%" style="border: none;"></iframe>
   </div>
 </div>
 
-<style>
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8);
-}
-
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: 2% auto;
-  padding: 20px;
-  width: 90%;
-  max-width: 1000px;
-  height: 90vh;
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover { color: #000; }
-</style>
-
 <script>
-function openPDFModal() {
-  document.getElementById('pdfModal').style.display = 'block';
-}
-
-function closePDFModal() {
-  document.getElementById('pdfModal').style.display = 'none';
-}
-
-// Close on outside click
-window.onclick = function(event) {
+(function() {
   const modal = document.getElementById('pdfModal');
-  if (event.target == modal) {
+  const thumbnail = document.getElementById('pdfThumbnail');
+  const closeBtn = document.getElementById('closeModal');
+  const iframe = document.getElementById('pdfFrame');
+  const pdfPath = '/assets/pdfs/skinwise_pres.pdf';
+
+  // Open modal
+  thumbnail.addEventListener('click', function() {
+    iframe.src = pdfPath;
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+  });
+
+  // Close modal
+  function closeModal() {
     modal.style.display = 'none';
+    iframe.src = ''; // Stop loading PDF
+    document.body.style.overflow = 'auto'; // Restore scrolling
   }
-}
+
+  closeBtn.addEventListener('click', closeModal);
+  
+  // Close on background click
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && modal.style.display === 'block') {
+      closeModal();
+    }
+  });
+})();
 </script>
