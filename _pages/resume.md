@@ -17,6 +17,8 @@ toc_icon: "file-alt"
 
 *Relevant Coursework*: Applied Machine Learning, Algorithms for Data Science, Probability & Statistics, Exploratory Data Analysis & Visualization
 
+*Upcoming coursework*: Statistical Inference & Modeling, Causal Inference for Data Science, Computer Systems for Data Science, Machine Learning for Data Science
+
 ### La Salle University
 **Bachelor of Science in Mathematics** | Philadelphia, PA | Aug 2018 - May 2022
 
