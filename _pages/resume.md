@@ -8,7 +8,7 @@ toc_label: "Contents"
 toc_icon: "file-alt"
 ---
 
-[Download PDF Resume](/assets/files/Yelene_Cisse_Resume.pdf){: .btn .btn--primary}
+[Download Full Resume (PDF)](/assets/files/Yelene_Cisse_Resume.pdf){: .btn .btn--primary}
 
 ## Education
 
@@ -98,6 +98,11 @@ Matplotlib, Seaborn, Altair, ggplot2, Excel, QlikView
 English (Fluent), French (Native), Spanish (Conversational)
 
 ---
+## Interests
+
+**Research Interests**: Recommendation Systems, Experimental design, Generative Recommenders, Production ML Systems, Computer Vision
+
+---
 
 ## Publications & Presentations
 
@@ -105,12 +110,10 @@ English (Fluent), French (Native), Spanish (Conversational)
 
 ---
 
-## Interests
+## Certificates
 
-**Research Interests**: Recommendation Systems, , Generative Recommenders, Production ML Systems, Computer Vision
+[Download PDF Advanced Excel Certificate](/assets/files/Advanced_Excel_Certificate_of_DSP_Completion.pdf){: .btn .btn--primary}
 
 ---
 
 *Last Updated: January 2026*
-
-[Download Full Resume (PDF)](/assets/files/Yelene_Cisse_Resume.pdf){: .btn .btn--primary}

@@ -21,7 +21,7 @@ Currently pursuing my MS in Data Science at Columbia University, I specialize in
 
 ## What I'm Working On
 
-Currently working on an E-commerce project, leveraging SQL, Python and A/B testing on a 100K dataset with customers, sellers, orders and products information.
+Currently working on an E-commerce project, leveraging SQL, Python and A/B testing best practices on a 100K dataset with customers, sellers, orders and products information.
 
 ---
 
